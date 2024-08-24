@@ -35,5 +35,12 @@ main{
     background: url(../filebox/images/frame-iphone.png) no-repeat fixed;
 }
 
+#screen {
+    position: relative;
+    left: 7%;
+    top: 13%;
+    height: 470px;
+    width: 268px;
+}
 
 
