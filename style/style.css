@@ -50,7 +50,6 @@ main{
 #network img{
     max-width: 40px;
     min-width: 30px;
-    margin: auto;
     margin: 8px;
     margin-top: 3px;
     border-radius: 50%;
