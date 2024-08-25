@@ -25,7 +25,7 @@ main{
 
 #phone{
     position: absolute;
-    top: 50%;
+    top: 53%;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -50,8 +50,9 @@ main{
 #network img{
     max-width: 40px;
     min-width: 30px;
-    margin: 10px;
-    margin-right: 0%;
+    margin: auto;
+    margin: 8px;
+    margin-top: 3px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
     box-sizing: border-box;
