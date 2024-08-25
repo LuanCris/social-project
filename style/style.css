@@ -32,15 +32,37 @@ main{
 
     width: 311px;
     height: 627px;
-    background: url(../filebox/images/frame-iphone.png) no-repeat fixed;
+    background: url(../filebox/images/frame-iphone.png) no-repeat ;
+    background-size: cover;
+    display: inline-block;
+    margin: auto;
 }
 
 #screen {
     position: relative;
-    left: 7%;
-    top: 13%;
-    height: 470px;
-    width: 268px;
+    left: 22px;
+    top: 80px;
+    height: 471px;
+    width: 267px;
+    background-size: cover;
 }
+
+#network img{
+    max-width: 42px;
+    min-width: 30px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+#network img:hover{
+    transform: translate(-2px, -2px);
+    border: 2px solid rgba(255, 255, 255, 0.814);
+    box-shadow: 3px 3px 6px rgba(255, 255, 255, 0.511);
+    transition: transform .4s, border .1s, box-shadow .3s;
+}
+
 
 
